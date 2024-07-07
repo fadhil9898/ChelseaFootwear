@@ -72,10 +72,10 @@
 
 <body>
     <div class="container">
-        <div class="d-flex justify-content-center">
-<form class="mb-5" method="POST" action="cek-daftar.php" class="needs-validation">
+        <div class="d-flex justify-content-center mt-4">
+                <form class="mb-5" method="POST" action="cek-daftar.php" class="needs-validation">
         
-        <img src="../../assets/brand/logo.svg" alt="logo" width="50px" class="shadow-light my-4">
+<img src="../../assets/brand/logo.png" width="25px" height="25px" alt="Logo" class="mb-4 ">
     
     <div class="text-align-right" >
          <h2 class="mb-4">Complete this form to register</h2>
@@ -102,7 +102,9 @@
         <a href="../login/auth-login.php" class="mt-4 text-black fw-medium">Already have an account?</a>  
         </div> 
       
-    </form>
+                </form>
+        </div>
+    </div>  
      
 </body>
 </html>

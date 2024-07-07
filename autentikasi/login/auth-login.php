@@ -59,9 +59,9 @@
     <title>Login - Chealsea Footwear</title>
 </head>
     <div class="container">
-        <div class="d-flex justify-content-center">
-        <form method="POST" action="cek-login.php" class="needs-validation">
-        <img src="../../assets/brand/logo.svg" alt="logo" width="50px" class="shadow-light my-4">
+        <div class="d-flex justify-content-center my-4 ">
+            <form method="POST" action="cek-login.php" class="needs-validation">
+        <img src="../../assets/brand/logo.png" width="25px" height="25px" alt="Logo" class="mb-4 ">
         <h2 class="mb-4">Enter your account details</h2>
          <?php 
          if (isset($_GET['pesan'])){
@@ -81,7 +81,9 @@
         <button type="submit" class="btn bg-black text-light rounded-5 fw-medium px-4 py-2 mt-3" class="text-center mb-3">Continue</button>
         <a href="../daftar/auth-daftar.php" class="mt-4 text-black fw-medium">Don't have an account yet?</a>  
         </div> 
-    </form>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
 >>>>>>> aa9b696 (ngetest lagi)

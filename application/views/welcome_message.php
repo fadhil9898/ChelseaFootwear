@@ -123,9 +123,24 @@
 
                     <div class="block md:hidden">
                         <button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-                        <span class="material-symbols-outlined" id="profile-button">
+                        <span class="material-symbols-outlined menu" id="profile-button">
                                 menu
                             </span>
+                            <div class="absolute right-0 me-3 mt-2 bg-white border border-gray-200 rounded-md shadow-lg z-10 dropdown-menu hidden">
+                                <a href="#" class="block py-2 text-gray-700 hover:bg-gray-100 flex items-center px-3">
+                                        <span class="material-symbols-outlined me-2" id="profile-button">
+                                        favorite
+                                        </span>
+                                Favorite
+                                </a>
+                                <a href="#" class="block py-2 text-gray-700 hover:bg-gray-100 flex items-center px-3">
+                                        <span class="material-symbols-outlined me-2" id="profile-button">
+                                        shopping_cart
+                                        </span>
+                                Cart
+                                </a>
+                            </div>
+ 
                         </button>
                     </div>
                 </div>
@@ -449,6 +464,10 @@ document.querySelectorAll('.favorite').forEach(function(element) {
             type: "progressbar",
         },
     });
+
+    document.querySelector('.menu').addEventListener('click', () => {
+        document.querySelector('.dropdown-menu').classList.toggle('hidden')
+    })
     </script>
 </body>
 

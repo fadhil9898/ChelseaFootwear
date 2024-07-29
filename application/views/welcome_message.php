@@ -123,7 +123,9 @@
 
                     <div class="block md:hidden">
                         <button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-                            <img src="assets/images/icon/menu.svg" class="text-black">
+                        <span class="material-symbols-outlined" id="profile-button">
+                                menu
+                            </span>
                         </button>
                     </div>
                 </div>
